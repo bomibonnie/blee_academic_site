@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  
+  <meta charset="utf-8">
+  <title> Hello R Markdown &middot; Your Name </title>
+  
+  
+    <title>Hello R Markdown &middot; Your Name</title>
+    <meta property="og:title" content="Hello R Markdown &middot; Your Name">
+    <meta property="og:type" content="article">
+    
+      
+      <meta name="twitter:card" content="summary">
+      
+      
+      
+      <meta property="description" content="Your name and a few keywords on your academic interests">
+      <meta property="og:description" content="Your name and a few keywords on your academic interests">
+    
+    
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:site" content="">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="stylesheet" href="/css/flatly-bootstrap.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/academicons.css">
+  <style type="text/css">
+    
+/* Page Background
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+	background-color: white;
+	color: black;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  
+a {
+    text-decoration: none;
+    /*border-bottom: 1px grey solid;*/
+      color: rgb(0, 0, 152);
+  }
+a:hover {
+  color: rgb(255, 102, 0);
+}
+
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; 
+  color: #FFF;
+  background-color: rgb(0, 0, 152);
+  border-color: rgb(0, 0, 152);
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #FFF;
+  background-color: rgb(255, 102, 0);
+  border-color: rgb(255, 102, 0); }
+
+
+  </style>
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+
+</head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="sidebar affix bs-docs-sidebar" role="complementary">
+            <h1 id="site-title"><a href="/">Your Name</a></h1>
+<h5>A few keywords on your academic interests</h5>
+
+
+<aside>
+    <div id="sidebar" class="sidebar nav-list sidebar-nav span 2">
+        
+        <ul style="list-style: none; padding-left:0;" class="sidebar-menu">
+          
+          
+ 
+            <li>
+            <a href="/">
+                
+                <span>Home</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/research/">
+                
+                <span>Research</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/teaching/">
+                
+                <span>Teaching</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/blog/">
+                
+                <span>Blog</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/cv.pdf">
+                
+                <span>CV</span>
+            </a>
+          </li>
+          
+        </ul>
+        
+        <ul class="list-inline">
+  <li>
+    <a href="mailto:your_email@uppermidwest.edu">
+      <i class="fa fa-fw fa-envelope-o"></i>
+    </a>
+  </li>
+
+  <li> 
+    <a href="https://twitter.com/your_twitter_username">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+
+
+  <li> 
+    <a href="https://github.com/your_github_username">
+
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+
+  <li> 
+    <a href="https://scholar.google.com/citations?user=your_gscholar_code">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </li>
+
+</ul>
+    </div>
+</aside>
+
+
+
+
+
+<hr class="hidden-md hidden-lg">
+
+          </div>
+        </div>
+        <div class="col-md-8" role="main">
+
+
+<h3>Hello R Markdown</h3>
+<span class="date">Thursday, 23 July 2015</span>
+
+<div class="post">
+  
+
+
+<div id="r-markdown" class="section level2">
+<h2>R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
+</div>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie"></span>
+<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
+</div>
+
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+  </body>
+</html>
