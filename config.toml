@@ -35,15 +35,15 @@ blogdir = "blog"
     weight = 5
 
 [params]
-    description = "Your name and a few keywords on your academic interests" 
-    subtitle = "A few keywords on your academic interests"
-    home_text = "Greetings! I am a Ph.D student in the Political Science department at the University of Iowa. I received my B.A. in political science and M.A. in international relations from Seoul National University. My research and teaching interests include international conflict, international rivalries, and diversionary theory."
+    description = "International Conflict, Interstate Rivalries, International Relations and Domestic Politics, Diversionary Theory" 
+    subtitle = "International Conflict, Interstate Rivalries, International Relations and Domestic Politics, Diversionary Theory."
+    home_text = "Greetings! I am a Ph.D student of political science at the University of Iowa. I received my B.A. in political science and M.A. in international relations from Seoul National University. My research and teaching interests include international conflict, international rivalries, and diversionary theory."
 
     author = "Bomi Lee"
     dateFormat = "2019/02/09"
     email = "bomi-lee-1@uiowa.edu"
     github_username = "bomibonnie"
-    twitter_username = "bomibonnielee"  # leave empty quotes to omit
+    twitter_username = "bomiklee"  # leave empty quotes to omit
     gscholar_code = ""        # leave empty quotes to omit    
 
     page_color = "#f0f0f0"
