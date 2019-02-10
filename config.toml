@@ -49,7 +49,7 @@ blogdir = "blog"
 
     page_color = "#F4F4F4"
     text_color = "#0A1612"
-    link_color = "#F9BE02"
+    link_color = "#D9B310"
     hover_color = "#5F0F4E"
 
 
