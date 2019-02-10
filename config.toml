@@ -1,4 +1,4 @@
-baseurl = "http://example.netlify.io/"
+baseurl = "http://bomiklee.netlify.io/"
 relativeurls = false
 languageCode = "en-us"
 title = "Bomi Lee"
@@ -29,13 +29,14 @@ blogdir = "blog"
 #    name = "Blog"
 #    url = "/blog/"
 #    weight = 4
+
 [[menu.main]]
     name = "CV"
     url = "/bomi-rmarkdown-cv.pdf"
     weight = 5
 
 [params]
-    description = "International Conflict, Interstate Rivalries, International Relations and Domestic Politics, Diversionary Theory" 
+    description = "BomiLee, International Relations and Political Methods" 
     subtitle = "International Conflict, Interstate Rivalries, International Relations and Domestic Politics, Diversionary Theory."
     home_text = "Greetings! I am a Ph.D student of political science at the University of Iowa. I received my B.A. in political science and M.A. in international relations from Seoul National University. My research and teaching interests include international conflict, international rivalries, and diversionary theory."
 
@@ -44,7 +45,7 @@ blogdir = "blog"
     email = "bomi-lee-1@uiowa.edu"
     github_username = "bomibonnie"
     twitter_username = "bomiklee"  # leave empty quotes to omit
-    gscholar_code = ""        # leave empty quotes to omit    
+    #gscholar_code =         # leave empty quotes to omit    
 
     page_color = "#f0f0f0"
     text_color = "#424242"
