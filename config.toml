@@ -48,7 +48,7 @@ blogdir = "blog"
     #gscholar_code =         # leave empty quotes to omit    
 
     page_color = "#F4F4F4"
-    text_color = "#192231"
+    text_color = "#0A1612"
     link_color = "#F9BE02"
     hover_color = "#5F0F4E"
 
