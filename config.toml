@@ -25,10 +25,10 @@ blogdir = "blog"
 #   name = "Teaching"
 #   url = "/teaching/"
 #   weight = 3
-#[[menu.main]]           # comment out this row, plus the name, url, and weight to omit 
-#    name = "Blog"
-#    url = "/blog/"
-#    weight = 4
+[[menu.main]]           # comment out this row, plus the name, url, and weight to omit 
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
 
 [[menu.main]]
     name = "CV"
