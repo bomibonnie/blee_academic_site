@@ -12,11 +12,11 @@ blogdir = "blog"
 [permalinks]
     post = "blog/:year/:month/:day/:slug/"
 
-[[menu.main]]
+[menu.main]
     name = "Home"
     url = "/"
     weight = 1
-[[[menu.main]]           
+[menu.main]           
    name = "Research"    
    url = "/research/"
    weight = 2
@@ -24,12 +24,12 @@ blogdir = "blog"
 #   name = "Teaching"
 #   url = "/teaching/"
 #   weight = 3
-[[menu.main]]    # comment out this row, plus the name, url, and weight to omit          
+[menu.main]    # comment out this row, plus the name, url, and weight to omit          
     name = "Blog"
     url = "/blog/rivgif.html"
     weight = 4
 
-[[menu.main]]
+[menu.main]
     name = "CV"
     url = "/bomi-rmarkdown-cv.pdf"
     weight = 5
