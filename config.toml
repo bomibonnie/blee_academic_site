@@ -8,6 +8,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 uglyURLS = false
 enableEmoji = true
 blogdir = "blog"
+min_version=0.27
 
 [permalinks]
     post = "blog/:year/:month/:day/:slug/"
