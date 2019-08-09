@@ -15,10 +15,3 @@
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.56.3"
 
-[context.deploy-preview]
-  command = "hugo -b $DEPLOY_PRIME_URL --buildFuture"
-
-
-[context.branch-deploy]
-
-  command = "hugo -b $DEPLOY_PRIME_URL --buildFuture"
