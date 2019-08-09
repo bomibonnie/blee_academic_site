@@ -24,7 +24,7 @@ blogdir = "blog"
 #   name = "Teaching"
 #   url = "/teaching/"
 #   weight = 3
-[[menu.main]]    # comment out this row, plus the name, url, and weight to omit         
+[[menu.main]]             
     name = "Blog"
     url = "/blog/rivgif.html"
     weight = 4
