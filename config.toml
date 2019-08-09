@@ -44,7 +44,7 @@ blogdir = "blog"
     email = "bomi-lee-1@uiowa.edu"
     github_username = "bomibonnie"
     twitter_username = "bomiklee"  
-    #gscholar_code =         # leave empty quotes to omit    
+    #gscholar_code =            
 
     page_color = "#F4F4F4"
     text_color = "black"
