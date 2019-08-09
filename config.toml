@@ -43,7 +43,7 @@ blogdir = "blog"
     dateFormat = "2019/02/09"
     email = "bomi-lee-1@uiowa.edu"
     github_username = "bomibonnie"
-    twitter_username = "bomiklee"  # leave empty quotes to omit
+    twitter_username = "bomiklee"  
     #gscholar_code =         # leave empty quotes to omit    
 
     page_color = "#F4F4F4"
