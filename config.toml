@@ -35,7 +35,7 @@ blogdir = "blog"
     weight = 5
 
 [params]
-    description = "BomiLee, International Relations and Political Methods" 
+    description = "Bomi Lee, International Relations and Political Methods" 
     subtitle = "International Conflict and Cooperation, Interstate Rivalries, Interaction between Domestic and International Politics"
     home_text = "Greetings! I am a Ph.D student of political science at the University of Iowa. I received my B.A. in political science and M.A. in international relations from Seoul National University. My research and teaching interests include international conflict and cooperation, international rivalries, and interaction between domestic and international politics."
 
