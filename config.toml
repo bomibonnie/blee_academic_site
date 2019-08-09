@@ -3,7 +3,6 @@ relativeurls = false
 languageCode = "en-us"
 title = "Bomi Lee"
 theme = "hugo-prof"
-googleAnalytics = "UA-135628373-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 uglyURLS = false
